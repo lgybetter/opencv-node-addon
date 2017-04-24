@@ -1,0 +1,25 @@
+{
+  "name": "opencv-node-addon",
+  "version": "1.0.0",
+  "description": "node using opencv image features detect api",
+  "main": "index.js",
+  "scripts": {
+    "buildOpencv": "node-gyp configure build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgybetter/opencv-node-addon.git"
+  },
+  "keywords": [
+    "opencv",
+    "node-addon"
+  ],
+  "author": "lgybetter",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.6.2"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.6.0"
+  }
+}
